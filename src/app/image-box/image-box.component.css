@@ -1,0 +1,25 @@
+.img-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-bottom: 42px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+.img-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.img-box > img {
+    width: 260px;
+    height: 332px;
+}
+
+.img-box > h3 {
+    margin-top: 14px;
+}
