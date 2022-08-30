@@ -18,6 +18,7 @@ import { ImageBoxComponent } from './image-box/image-box.component';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzImageModule } from 'ng-zorro-antd/image';
 import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
+import { CarouselModule } from './component/carousel/carousel.module';
 
 registerLocaleData(en);
 
@@ -38,7 +39,8 @@ registerLocaleData(en);
     BrowserAnimationsModule,
     NzGridModule,
     NzImageModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    CarouselModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

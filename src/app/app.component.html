@@ -1,4 +1,29 @@
-<app-header></app-header>
+<!-- <app-header></app-header>
 <app-nav></app-nav>
 <app-main-body></app-main-body>
-<app-footer></app-footer>
+<app-footer></app-footer> -->
+
+<div class="container">
+    <div class="left">
+        <!-- <h1>{{index+1}} / {{images.length}}</h1>
+        <pre>click left and right sides of the image to browse</pre> -->
+        <carousel [slideItems]="slideItems"></carousel>
+
+    </div>
+    <div class="right">
+        <h1 class="h">TITLE</h1>
+        <div class="con">
+            <div class="imgBox">
+                <img src="https://placeimg.com/300/300/nature/6" />
+                <h3>Image Title</h3>
+                <span>Image Date</span>
+            </div>
+
+            <div class="imgBox">
+                <img src="https://placeimg.com/300/300/nature/6" />
+                <h3>Image Title</h3>
+                <span>Date</span>
+            </div>
+        </div>
+    </div>
+</div>
